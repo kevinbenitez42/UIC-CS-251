@@ -1,0 +1,25 @@
+
+
+
+
+int main(int argc, char **argv)
+{
+
+//HMAP * dict = hmap_create(0,1.0);
+
+//char saveString[200];
+
+//hashStrings(dict, saveString);
+//GRAPH* g = createAdjHashMap(dict, saveString);
+
+char line[20];
+while(1){
+
+	scanf(" %s", line);
+	getchar();
+    printf(" %s\n", line);
+   // fflush(stdin);
+}
+
+    
+}

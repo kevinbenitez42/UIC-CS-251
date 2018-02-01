@@ -1,0 +1,11 @@
+
+
+llist.o:  list.h llist.c
+	gcc -c llist.c
+
+sq.o: llist.o sq.h sq.c
+	gcc -c sq.c
+
+fdriver: fdriver.c sq.o 
+	gcc fdriver.c sq.o llist.o -lc -o fdriver
+

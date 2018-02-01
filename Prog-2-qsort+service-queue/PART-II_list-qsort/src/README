@@ -1,0 +1,23 @@
+
+
+
+Implementation of list ADT including functions useful for
+list-based implementations of merge-sort and quick sort.
+
+You have been provided a couple of utility functions in io.c (header
+file io.h) which you are free to use.
+
+The function read_ints reads a sequence of integers from standard
+input and stores them in a linked list which is then returned.  It 
+behave according to the specifications of the assignment.
+
+The function print_and_destroy simply displays the contens of a list
+and then destroys (frees) it.
+
+You have also been provided with an implementation of merge-sort
+using the list ADT for reference (file:  msort.c)
+
+The given makefile has a target for msort (the executable result of
+compiling msort.c).
+
+You will need to add a target for qsort.
